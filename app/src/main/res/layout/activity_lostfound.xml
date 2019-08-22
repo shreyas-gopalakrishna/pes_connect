@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inputColor">
+
+    <Button
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/buttonLost"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_rounded_corners"
+        android:text="Lost Something ?" />
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_height="wrap_content"
+        android:text="List of Items" />
+
+</LinearLayout>

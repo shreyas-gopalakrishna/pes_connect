@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.user.addapes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <application
+14-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:7:5-140:19
+15        android:allowBackup="true"
+15-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.0] C:\Users\Shreyas G\.gradle\caches\transforms-2\files-2.1\47fd9d84446f77df362301eb1bc21aef\core-1.0.0\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/launch"
+18-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:9:9-38
+19        android:label="@string/app_name"
+19-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity android:name="com.example.user.addapes.SplashScreen" >
+23-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:14:9-19:20
+23-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:15:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:16:17-69
+25-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:17:17-77
+27-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:21:9-29:20
+31            android:name="com.example.user.addapes.Timetable"
+31-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:22:13-38
+32            android:label="@string/title_activity_Timetable"
+32-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:23:13-61
+33            android:theme="@style/AppTheme" >
+33-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:24:13-44
+34            <intent-filter>
+34-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:25:13-28:29
+35                <action android:name="com.example.user.addapes.Timetable" />
+35-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:26:17-77
+35-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:26:25-74
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+37-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:33:9-37:20
+41            android:name="com.example.user.addapes.Navigator"
+41-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:34:13-38
+42            android:label="@string/title_activity_Navigator"
+42-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:35:13-61
+43            android:theme="@style/AppTheme" >
+43-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:36:13-44
+44        </activity>
+45        <activity
+45-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:39:9-47:20
+46            android:name="com.example.user.addapes.CampusMart"
+46-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:40:13-39
+47            android:label="@string/title_activity_CampusMart"
+47-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:41:13-62
+48            android:theme="@style/AppTheme" >
+48-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:42:13-44
+49            <intent-filter>
+49-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:43:13-46:29
+50                <action android:name="com.example.user.addapes.CampusMart" />
+50-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:44:17-78
+50-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:44:25-75
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+52-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:49:9-58:20
+56            android:name="com.example.user.addapes.Events"
+56-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:50:13-35
+57            android:label="@string/title_activity_Events"
+57-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:51:13-58
+58            android:theme="@style/AppTheme" >
+58-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:52:13-44
+59            <intent-filter>
+59-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:54:13-57:29
+60                <action android:name="com.example.user.addapes.Events" />
+60-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:55:17-74
+60-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:55:25-71
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+62-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:60:9-68:20
+66            android:name="com.example.user.addapes.PlaceActivity"
+66-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:61:13-42
+67            android:label="@string/title_activity_Placement"
+67-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:62:13-61
+68            android:theme="@style/AppTheme" >
+68-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:63:13-44
+69            <intent-filter>
+69-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:64:13-67:29
+70                <action android:name="com.example.user.addapes.PlaceActivity" />
+70-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:65:17-81
+70-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:65:25-78
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+72-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:70:9-78:20
+76            android:name="com.example.user.addapes.Doubts"
+76-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:71:13-35
+77            android:label="@string/title_activity_Doubts"
+77-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:72:13-58
+78            android:theme="@style/AppTheme" >
+78-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:73:13-44
+79            <intent-filter>
+79-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:74:13-77:29
+80                <action android:name="com.example.user.addapes.Doubts" />
+80-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:75:17-74
+80-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:75:25-71
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+82-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:80:9-88:20
+86            android:name="com.example.user.addapes.Polls"
+86-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:81:13-34
+87            android:label="@string/title_activity_Polls"
+87-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:82:13-57
+88            android:theme="@style/AppTheme" >
+88-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:83:13-44
+89            <intent-filter>
+89-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:84:13-87:29
+90                <action android:name="com.example.user.addapes.Polls" />
+90-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:85:17-73
+90-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:85:25-70
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+92-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:90:9-98:20
+96            android:name="com.example.user.addapes.Graph"
+96-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:91:13-34
+97            android:label="@string/title_activity_Polls"
+97-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:92:13-57
+98            android:theme="@style/AppTheme" >
+98-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:93:13-44
+99            <intent-filter>
+99-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:94:13-97:29
+100                <action android:name="com.example.user.addapes.Graph" />
+100-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:95:17-73
+100-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:95:25-70
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+102-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:100:9-108:20
+106            android:name="com.example.user.addapes.LostFound"
+106-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:101:13-38
+107            android:label="@string/title_activity_LostFound"
+107-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:102:13-61
+108            android:theme="@style/AppTheme" >
+108-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:103:13-44
+109            <intent-filter>
+109-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:104:13-107:29
+110                <action android:name="com.example.user.addapes.LostFound" />
+110-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:105:17-77
+110-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:105:25-74
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+112-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:110:9-118:20
+116            android:name="com.example.user.addapes.LostFoundList"
+116-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:111:13-42
+117            android:label="@string/title_activity_LostFound"
+117-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:112:13-61
+118            android:theme="@style/AppTheme" >
+118-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:113:13-44
+119            <intent-filter>
+119-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:114:13-117:29
+120                <action android:name="com.example.user.addapes.LostFoundList" />
+120-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:115:17-81
+120-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:115:25-78
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+122-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+123            </intent-filter>
+124        </activity>
+125        <activity
+125-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:120:9-128:20
+126            android:name="com.example.user.addapes.SignupActivity"
+126-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:121:13-43
+127            android:label="@string/title_activity_Signup"
+127-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:122:13-58
+128            android:theme="@style/AppTheme" >
+128-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:123:13-44
+129            <intent-filter>
+129-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:124:13-127:29
+130                <action android:name="com.example.user.addapes.SignupActivity" />
+130-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:125:17-82
+130-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:125:25-79
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+132-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:130:9-138:20
+136            android:name="com.example.user.addapes.LoginActivity"
+136-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:131:13-42
+137            android:label="@string/title_activity_Login"
+137-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:132:13-57
+138            android:theme="@style/AppTheme" >
+138-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:133:13-44
+139            <intent-filter>
+139-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:134:13-137:29
+140                <action android:name="com.example.user.addapes.LoginActivity" />
+140-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:135:17-81
+140-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:135:25-78
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:17-76
+142-->D:\AndroidProjects\pes connect\app\src\main\AndroidManifest.xml:27:27-73
+143            </intent-filter>
+144        </activity>
+145    </application>
+146
+147</manifest>
